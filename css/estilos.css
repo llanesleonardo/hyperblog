@@ -1,4 +1,5 @@
 body {
+    background-color: lightgray;
     color: blue;
     text-align: center;
     font-family: "Arial";
@@ -28,8 +29,18 @@ body {
     padding: 0.5em; 
 }
 
+#cabecera #logo {
+    width: 20px;
+    vertical-align: middle;
+}
+
 #cabecera #tagline{
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
+}
+
+#post {
+    background-color: white;
+    padding: 1em;
 }
